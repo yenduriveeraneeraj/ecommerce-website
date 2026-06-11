@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cart Page</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+
+<div class="logo">
+<h2>ShopEasy</h2>
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="category.html">Category</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+
+<div class="icons">
+<a href="search.html"><i class="fas fa-search"></i></a>
+<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+</div>
+
+</nav>
+
+<!-- Cart Section -->
+
+<section class="cart-page">
+
+<h1>Shopping Cart</h1>
+
+<table class="cart-table">
+
+<thead>
+<tr>
+<th>Image</th>
+<th>Product</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Total</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300">
+</td>
+
+<td>Smart Phone</td>
+
+<td class="price">20000</td>
+
+<td>
+<input type="number"
+class="quantity"
+value="1"
+min="1">
+</td>
+
+<td class="itemTotal">20000</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+<img src="https://png.pngtree.com/png-clipart/20250523/original/pngtree-modern-laptop-computer-with-screen-open-technology-digital-device-png-image_21059292.png">
+</td>
+
+<td>Laptop</td>
+
+<td class="price">55000</td>
+
+<td>
+<input type="number"
+class="quantity"
+value="1"
+min="1">
+</td>
+
+<td class="itemTotal">55000</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300">
+</td>
+
+<td>Sports Shoes</td>
+
+<td class="price">2500</td>
+
+<td>
+<input type="number"
+class="quantity"
+value="1"
+min="1">
+</td>
+
+<td class="itemTotal">2500</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<div class="cart-summary">
+
+<h2>
+Grand Total :
+₹ <span id="grandTotal">77500</span>
+</h2>
+
+<a href="checkout.html">
+<button class="checkout-btn">
+Proceed To Checkout
+</button>
+</a>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<h3>ShopEasy</h3>
+
+<p>Your One Stop Online Shopping Destination</p>
+
+<div class="social-icons">
+<i class="fab fa-facebook"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+</div>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<!-- Scroll To Top -->
+
+<button id="topBtn">
+<i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+<script src="cart.js"></script>
+
+</body>
+</html>
